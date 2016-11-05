@@ -1,0 +1,50 @@
+{
+  "name": "ts-mok",
+  "version": "0.0.1",
+  "description": "typescript koa",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "co": "^4.6.0",
+    "co-wechat": "0.0.4",
+    "co-wechat-api": "^2.4.0",
+    "ioredis": "^2.3.0",
+    "knex": "^0.11.9",
+    "koa": "^1.2.1",
+    "koa-body": "^1.4.0",
+    "koa-compose": "^2.4.0",
+    "koa-compress": "^1.0.9",
+    "koa-generic-session": "^1.11.3",
+    "koa-redis": "^2.1.2",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^5.4.0",
+    "koa-static-server": "^0.1.8",
+    "koa-validate": "^1.0.6",
+    "lodash": "^4.15.0",
+    "log4js": "^0.6.38",
+    "mongoose": "^4.6.5",
+    "mysql": "^2.11.1",
+    "nodemailer": "^2.6.4",
+    "utility": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/koa": "^2.0.33",
+    "@types/koa-compose": "^3.0.30",
+    "@types/koa-compress": "^2.0.4",
+    "@types/koa-router": "^7.0.21",
+    "@types/node": "^6.0.46"
+  },
+  "scripts": {
+    "production": "NODE_ENV=production node index.js",
+    "development": "NODE_ENV=development node index.js",
+    "menu": "NODE_ENV=production node index.js",
+    "dev_menu": "NODE_ENV=development node index.js"
+  },
+  "author": "hdumok",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/hdumok/ts-mok.git",
+    "type": "git"
+  }
+}

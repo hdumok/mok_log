@@ -1,0 +1,1 @@
+return redis.pcall('get', KEYS[1]);

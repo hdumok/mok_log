@@ -1,0 +1,8 @@
+{
+    "status": true,
+    "prefix": "/api/user",
+    "routes": {
+        "POST /signin": "signin",
+		"POST /signup": "signup"
+    }
+}

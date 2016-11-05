@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "app",
+            "script": "index.js",
+            "instances": 1,
+            "watch": ["index.js", "package.json", "app", "lib", "client", "config", "const", "controllers", "middlewares", "wechat"],
+            "min_uptime": "30s",
+            "max_memory_restart": "1G",
+            "autorestart": true,
+            "env_production": {
+                "NODE_ENV": "production"
+            },
+            "env_development": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
